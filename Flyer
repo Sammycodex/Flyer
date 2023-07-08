@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Infinity - Movie Flyer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+    
+    .flyer {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      color: #333333;
+      font-size: 32px;
+      margin-top: 0;
+    }
+    
+    h2 {
+      color: #666666;
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+    
+    p {
+      color: #333333;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+    
+    .image {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .details {
+      margin-bottom: 20px;
+    }
+    
+    .details p {
+      margin: 0;
+    }
+    
+    .contact {
+      font-size: 16px;
+      color: #666666;
+    }
+  </style>
+</head>
+<body>
+  <div class="flyer">
+    <h1>Movie Title: Infinity</h1>
+    <h2>Tagline: Discover the Power Within</h2>
+    <div class="image">
+      <img src="background_image.jpg" alt="Movie Poster">
+    </div>
+    <div class="details">
+      <p>Date: October 15, 2023</p>
+      <p>Time: 7:00 PM</p>
+      <p>Location: XYZ Theater</p>
+      <p>Starring: John Doe, Jane Smith, Mark Johnson</p>
+      <p>Directed by: Michael Director</p>
+      <p>Genres: Action, Adventure, Fantasy</p>
+      <p>Rating: PG-13</p>
+    </div>
+    <p>Synopsis: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus mi in sapien finibus rutrum. Nunc eu elit quam. Vivamus vitae felis at orci dictum auctor.</p>
+    <p class="contact">For more information, visit www.infinitymovie.com</p>
+  </div>
+</body>
+</html>
